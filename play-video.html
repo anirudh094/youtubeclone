@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Video By Anirudh</title>
+    <link rel = "icon" href="images/youtube-logo.png" type = "image/icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="flex-div">
+        <div class="nav-left flex-div">
+            <img src="images/menu.png" alt="" class="menu-icon">
+            <img src="images/logo.png" alt="" class="logo">
+        </div>
+        <div class="nav-middle flex-div">
+            <div class="search-box flex-div">
+                <input type="text" placeholder="Search" class="search-bar">
+                <img src="images/search.png" alt="" class="search-btn">
+            </div>
+            <img src="images/voice-search.png" class="mic-icon" alt="">
+        </div>
+        <div class="nav-right flex-div">
+            <img src="images/upload.png" alt="">
+            <img src="images/notification.png" alt="">
+            <img src="images/anirudh_profile.jpg" alt="" class="user-icon">
+        </div>
+    </nav>
+
+
+
+    <div class="containeryt play-container">
+        <div class="rowyt">
+            <div class="play-video">
+                <iframe src="https://www.youtube.com/embed/yBRB0oJs2bE" class="video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <!-- <video src="images/video.mp4"></video> -->
+                <h2>India 4-0 Pakistan | Full Highlights | SAFF Championship 2023</h2>
+                <div class="play-video-info">
+                    <div class="publisher">
+                        <img src="images/indianfootball.jpg" alt="">
+                        <div>
+                            <p>Indian Football</p>
+                            <span>3.26M Subscribers</span>
+                        </div>
+                        <button class="sub-button" onclick="sub_channel()" type="button">Subscribe</button>
+                    </div>
+                    <div class="publisher-buttons">
+                        <!-- <a href=""><img src="images/like.png" alt="">883K</a>
+                        <a href=""><img src="images/dislike.png" alt=""></a>
+                        <a href=""><img src="images/share.png" alt="">Share</a>
+                        <a href=""><img src="images/download.png" alt="">Download</a>    -->
+                        <button onclick="like_video()"><img id="like-video" src="images/like.png" alt="">883K</button>
+                        <button onclick="dislike_video()"><img id="dislike-video" src="images/dislike.png" alt=""></button>
+                        <button><img src="images/share.png" alt="">Share</button>
+                        <button><img src="images/download.png" alt="">Download</button> 
+                    </div>
+                    
+                </div>
+
+                <div class="vid-description">
+                    <p class="vid-description-numbers">16,564,591 views &bull; Jun 21, 2023</p>
+                    <p>Perfect start to SAFFChampionship2023 for the BlueTigers 🐯</p>
+                    <p>Watch the Full Highlights here</p>
+                    <p>#INDvsPAK #IndianFootball ⚽️</p>
+                </div>   
+                    <h4 class="vid-total-comments">134 Comments</h4>
+                    <div class="add-comment">
+                        <img src="images/anirudh_profile.jpg" alt="">
+                        <input type="text" placeholder="Add a comment...">
+                    </div>
+                    <div class="old-comment">
+                        <img src="images/yogibaba.jpg" alt="">
+                        <div>
+                            <h3>@YogiBabaOG <span>2 days ago</span></h3>
+                            <p>Red ranger 🥺🥺🥺🥺🥺🥺</p>
+                            <div class="comment-action">
+                                <img src="images/like.png" alt="">
+                                <span>244</span>
+                                <img src="images/dislike.png" alt="">
+
+                                <span class="reply-span">Reply</span>
+                                <a href="">All Replies</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="old-comment">
+                        <img src="images/hauntingtube.jpg" alt="">
+                        <div>
+                            <h3>@HauntingTube<span>2 days ago</span></h3>
+                            <p>"Childhood is precious, don't let them run it" I like this line.</p>
+                            <div class="comment-action">
+                                <img src="images/like.png" alt="">
+                                <span>69</span>
+                                <img src="images/dislike.png" alt="">
+                                
+                                <span class="reply-span">Reply</span>
+                                <a href="">All Replies</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="old-comment">
+                        <img src="images/beaststats.jpg" alt="">
+                        <div>
+                            <h3>@beaststats <span>2 days ago</span></h3>
+                            <p>Totally relatable.....but I became more quiet and isolated because my classmates thought it's funny to watch cartoons in 8th grade 😅</p>
+                            <div class="comment-action">
+                                <img src="images/like.png" alt="">
+                                <span>4</span>
+                                <img src="images/dislike.png" alt="">
+                                
+                                <span class="reply-span">Reply</span>
+                                <a href="">All Replies</a>
+                            </div>
+                        </div>
+                    </div>
+                
+
+            </div>
+
+            <div class="right-sidebar">
+
+                <!-- <div class="side-video-list">
+                    <a href="play-video.html" class="small-thumbnail"><img src="images/saimansays_video.webp" alt=""></a>
+                    <div class="vid-info">
+                        <a class="vid-info-small" href="">INDIAN SNACKS REVIEW 👏 with PewDiePie 👏</a>
+                        <p>Saiman Says</p>
+                        <p>5.8M views • 4 years ago</p>
+                    </div>
+                </div> -->
+    
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script2.js"></script>
+</html>
